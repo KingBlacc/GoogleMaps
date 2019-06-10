@@ -46,7 +46,12 @@
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:id="@+id/goToCurrent"
-        android:layout_below="@id/layout_Search"/>
+        android:id="@+id/ic_gps"
+        android:layout_below="@id/layout_Search"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_gps"/>
 
 </RelativeLayout>
